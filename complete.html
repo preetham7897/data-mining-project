@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="UTF-8">
+    	<title>Title</title>
+	</head>
+	<body>
+		<b>Image Caption Predictor</b><br>
+		<br>
+		<p>Source Image:</p><br>
+		<img src=" {{url_for('send_image', filename=image_name)}}"><br><br>
+		<p>Predicted Caption: {{c}}</p>
+	</body>
+</html>
